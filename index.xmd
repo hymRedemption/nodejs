@@ -1,0 +1,67 @@
+# NodeJS Express Way
+
+## 暖身周
+
+#overview
+  熟悉 NodeJS 开发环境，复习 JavaScript
+
+#lesson[day=1 name=create-npm-package]
+#lesson[day=2 name=setting-up-mocha]
+#lesson[day=3 name=using-coffeescript]
+#lesson[day=4 name=class-system]
+  背景阅读：
+
+  系统性地读完这一章会有帮助:
+  [> http://eloquentjavascript.net/06_object.html][Eloquent Javascript - Object]
+
+  比较简单，当做辅助性参考:
+  [> http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html][Javascript 面向对象编程 - 封装 (阮一峰)]
+
+#lesson[day=5 name=class-inheritance]
+
+
+## 第 1 周 - Connect Middleware
+
+#overview
+  这一周我们会先模仿 HarpJS 做一个静态页面 Web 服务器，以此来练习使用中间件（middleware）机制。
+
+  做完 HarpJS 之后我们会自己来实现这个中间件机制，达到和 [> https://github.com/senchalabs/connect][Connect] 一样的功能。
+
+  如果你对中间件架构不太了解: [> why-middleware][为什么要用中间件?]
+
+#lesson[day=1 name=mini-harp-server bbs=http://bbs.besike.com/t/lesson-6-harp/393]
+  #overview
+    HarpJS 是一个静态文件服务器+编译工具，适合拿来做静态页面，比如技术文档和个人博客。它有这些功能：
+
+    + 转化 Markdown，Less，Coffee 文件为 HTML，CSS，JavaScript
+    + 制定 layout
+    + 在 data.json 声明页面参数
+
+#lesson[day=2 name=mini-harp-preprocessor bbs=http://bbs.besike.com/t/lesson-7-harp/394]
+  #overview
+    我们第 8 课开始会以 TDD 的流程来做开发，先写测试再写代码。
+
+    凭空很难想出该写什么测试，你应该先写 [API 的使用案例](api-driven-development)，再看着这些案例想测试。
+
+#lesson[day=3 name=build-the-express-app bbs=http://bbs.besike.com/t/lesson-8-express-app/395]
+
+#lesson[day=4 name=build-the-middleware-stack bbs=http://bbs.besike.com/t/lesson-9-express/397]
+
+
+## 第 2 周 - Express App
+  #overview
+    这一周我们开始实现 Express 的核心机制。
+
+#lesson[day=1 name=path-matcher bbs=http://bbs.besike.com/t/lesson-10/401]
+#lesson[day=2 name=path-matcher-fancy bbs=http://bbs.besike.com/t/lesson-11/402]
+#lesson[day=3 name=router-http-verbs bbs=http://bbs.besike.com/t/lesson-12-http/403]
+#lesson[day=4 name=router-chaining bbs=http://bbs.besike.com/t/lesson-13-express/404]
+#lesson[day=5 name=dependence-injection bbs=http://bbs.besike.com/t/lesson-14-dependency-injection/405]
+
+## 第 3 周 - HTTP 协议的应用
+
+#lesson[day=1 name=extending-request-response bbs=http://bbs.besike.com/t/lesson-15-request-response/406]
+#lesson[day=2 name=content-negotiation bbs=http://bbs.besike.com/t/lesson-16-content-negotiation/407]
+#lesson[day=3 name=conditional-get bbs=http://bbs.besike.com/t/lesson-17-conditional-get/408]
+#lesson[day=4 name=send-file bbs=http://bbs.besike.com/t/lesson-18/409]
+
