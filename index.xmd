@@ -49,8 +49,8 @@
 
 
 ## 第 2 周 - Express App
-  #overview
-    这一周我们开始实现 Express 的核心机制。
+#overview
+  这一周我们开始实现 Express 的核心机制。
 
 #lesson[day=1 name=path-matcher bbs=http://bbs.besike.com/t/lesson-10/401]
 #lesson[day=2 name=path-matcher-fancy bbs=http://bbs.besike.com/t/lesson-11/402]
