@@ -2,10 +2,10 @@
 
 In this lesson we'll build a simple npm package. The package installs the `greet` command:
 
-<img src="1.png">
-<img src="2.png">
-<img src="3.png">
-<img src="4.png">
+<img src="../class-inheritance/1.png">
+<img src="../class-inheritance/2.png">
+<img src="../class-inheritance/3.png">
+<img src="../class-inheritance/4.png">
 
 ```sh
 $ greet howard
